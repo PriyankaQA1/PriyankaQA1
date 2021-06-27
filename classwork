@@ -1,0 +1,78 @@
+// first work
+
+package learningjava;
+
+public class descdowhile 
+{
+       public static void main(String[] args )
+
+{
+	    int i=10;
+	   do 
+	   {
+		   System.out.println("Descending order  " +i);
+		   i--;
+	   }
+	   while(i>=1);
+	
+}
+        }
+        
+        // 2 nd work
+        
+        package learningjava;
+
+public class sumforall 
+{
+ public static void main (String[] args)
+   {
+	int a=10;
+	int b= 20;
+	
+	int sum = a+b;
+	System.out.println("sum is " +sum);
+	
+	int subtract = b-a;
+	System.out.println("subtract is "+subtract);
+	
+	int multiply = a*b;
+	System.out.println("multiply is " +multiply);
+	
+	int divide = b/a;
+	System.out.println("divide result is" +divide);
+	
+	int reminder =b %a;
+	System.out.println("reminder is" +reminder);
+	 
+   }
+	
+	
+	
+}
+
+// 3rd work
+
+package learningjava;
+
+public class swapnumber 
+{
+    public static void main(String[] args) 
+    {
+	
+	 float first = 23.0f, second = 12.5f;
+
+     System.out.println("Before swap");
+     System.out.println("First number = " + first);
+     System.out.println("Second number = " + second);
+
+     first = first - second;  // 12 = 12 - 24.5. so first will be 24.5
+     second = first + second; // 24.5 = 24.5 + 24.5 so second wil be 24.5
+     first = second - first; // 
+
+     System.out.println("--After swap--");
+     System.out.println("First number = " + first);
+     System.out.println("Second number = " + second);
+	
+}
+}
+
